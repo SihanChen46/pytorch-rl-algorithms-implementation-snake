@@ -1,10 +1,13 @@
 # Simple Implementations of Reinforcement Learning Algorithms for Snake Game with PyTorch and Pygame
 
-This repository, an extension of the excellent tutorial by ([patrickloeber/snake-ai-pytorch](https://github.com/patrickloeber/snake-ai-pytorch)), significantly expands the original project by incorporating a variety of classic reinforcement learning (RL) algorithms. Originally featuring only Deep Q-Networks (DQN), this fork now offers an array of sophisticated RL strategies applied to the classic Snake game, all implemented using PyTorch and Pygame.
+An extension of the excellent tutorial by ([patrickloeber/snake-ai-pytorch](https://github.com/patrickloeber/snake-ai-pytorch)), 
+
+Expanded the original project by incorporating a variety of classic reinforcement learning (RL) algorithms. Originally featuring only Deep Q-Networks (DQN), this fork now offers an array of sophisticated RL strategies applied to the classic Snake game, all implemented using PyTorch and Pygame.
 
 This codebase favors explicit and straightforward logic over more abstract, complex structures, to facilitate learning and comprehension more on RL algorithms themselves.
 
 ## Implementations:
+- **DQN**: From Orignal Repo.
 - **MC Exploring Starts**: Utilizes Monte Carlo methods with function approximation.
 - **SARSA**: Applies SARSA (State-Action-Reward-State-Action) with function approximation.
 - **REINFORCE**: Integrates the REINFORCE algorithm. (Not converging, still WIP)
